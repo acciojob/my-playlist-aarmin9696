@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+
+*{
+    background-color: #cccccc;
+}
+h1,h2{
+    text-align: center;
+}
+
+.player_one{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: block;
+    padding: 20px;
+}
+
+.player_two{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 500px;
+	margin: auto;
+    border-radius: 10px;
+}
